@@ -1,7 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-neptunedata`](https://www.npmjs.com/package/@aws-sdk/client-neptunedata/v/3.1043.0).
+[`@aws-sdk/client-neptunedata`](https://www.npmjs.com/package/@aws-sdk/client-neptunedata/v/3.1044.0).
+
+Refer to the links below for detailed documentation:
+- All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
+- @aws-sdk/client-neptunedata - [https://cloud-sdk-builds.github.io/?sdk=client-neptunedata](https://cloud-sdk-builds.github.io/?sdk=client-neptunedata)
+- @aws-sdk/client-neptunedata v3.1044.0 - [https://cloud-sdk-builds.github.io/?sdk=client-neptunedata&version=3.1044.0](https://cloud-sdk-builds.github.io/?sdk=client-neptunedata&version=3.1044.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptunedata@3.1043.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptunedata@3.1044.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-UZfH3fFXz6u45FQ0jtsw745B+r2AjSmRPAI5JxZ67BAdOMz9RpJIkZTNf3BQ+t8E
+sha384-PKGgsvaylKUZltarY+7OPR8nHpziELbxGULrLEF2/jHWR6G19JGkgC4tihGrBI40
 ```
 
 ### 📌 Latest Version
@@ -61,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-neptunedata": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptunedata@3.1043.0/index.min.mjs"
+            "@aws-sdk/client-neptunedata": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptunedata@3.1044.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptunedata@3.1043.0/index.min.mjs": "sha384-UZfH3fFXz6u45FQ0jtsw745B+r2AjSmRPAI5JxZ67BAdOMz9RpJIkZTNf3BQ+t8E"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptunedata@3.1044.0/index.min.mjs": "sha384-PKGgsvaylKUZltarY+7OPR8nHpziELbxGULrLEF2/jHWR6G19JGkgC4tihGrBI40"
         }
       }
 </script>
@@ -81,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-neptunedata": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptunedata@3.1043.0/index.min.mjs"
+                        "@aws-sdk/client-neptunedata": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptunedata@3.1044.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptunedata@3.1043.0/index.min.mjs": "sha384-UZfH3fFXz6u45FQ0jtsw745B+r2AjSmRPAI5JxZ67BAdOMz9RpJIkZTNf3BQ+t8E"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-neptunedata@3.1044.0/index.min.mjs": "sha384-PKGgsvaylKUZltarY+7OPR8nHpziELbxGULrLEF2/jHWR6G19JGkgC4tihGrBI40"
                     }
                   }
             </script>
@@ -151,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1043.0`)
+* Always pin to a specific version (`@3.1044.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,9 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-neptunedata/blob/refs/tags/3.1043.0/LICENSE
+https://github.com/cloud-sdk-builds/client-neptunedata/blob/refs/tags/3.1044.0/LICENSE
 ```
 
 ---
-
-If you want, I can next give you a **legally safest naming pattern** for all repositories (very important for trademark safety, especially avoiding “aws-sdk” in repo names while still keeping discoverability).
